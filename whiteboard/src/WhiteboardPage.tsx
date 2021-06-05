@@ -54,7 +54,7 @@ import {isMobile, isWindows} from "react-device-detect";
 import { SupplierAdapter } from "./tools/SupplierAdapter";
 import { withTranslation, WithTranslation } from "react-i18next";
 import FloatLink from "./FloatLink";
-import { MonacoPlugin, MonacoPluginWrapper } from "../vscode/dist";
+import { MonacoPlugin, MonacoPluginWrapper } from "@netless/vscode";
 
 export type WhiteboardPageStates = {
     phase: RoomPhase;
