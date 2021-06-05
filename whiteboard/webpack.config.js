@@ -93,7 +93,7 @@ config = {
                 use: [{loader: MiniCssExtractPlugin.loader}, 'css-loader']
             },
             {
-                test: /\.(png|jp(e*)g|svg)$/,
+                test: /\.(png|jp(e*)g|svg|ttf)$/,
                 use: {
                     loader: 'url-loader'
                 }
